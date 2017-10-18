@@ -1,0 +1,7 @@
+<div *ngFor="let r of roomList">
+  <p>ROOM NAME: {{ r.name }}</p>
+  <p>PRICE: {{ r.price }}</p>
+  <p>ROOM NUMBER: {{ r.number }}</p>
+  <p>Availability : {{ r.Availability}}</p>
+  <button type="" (click)="order(r.name)" ></button>
+</div>
